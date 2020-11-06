@@ -277,9 +277,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		"SignalRClient::SignalRClient" /* SignalRClient */ = {
+		"SignalRClient::SignalRClient" /* SwiftSignalRClient */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_60 /* Build configuration list for PBXNativeTarget "SignalRClient" */;
+			buildConfigurationList = OBJ_60 /* Build configuration list for PBXNativeTarget "SwiftSignalRClient" */;
 			buildPhases = (
 				OBJ_63 /* Sources */,
 				OBJ_92 /* Frameworks */,
@@ -288,7 +288,7 @@
 			);
 			dependencies = (
 			);
-			name = SignalRClient;
+			name = SwiftSignalRClient;
 			productName = SignalRClient;
 			productReference = "SignalRClient::SignalRClient::Product" /* SignalRClient.framework */;
 			productType = "com.apple.product-type.framework";
@@ -346,7 +346,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"SignalRClient::SignalRClient" /* SignalRClient */,
+				"SignalRClient::SignalRClient" /* SwiftSignalRClient */,
 				"SignalRClient::SwiftPMPackageDescription" /* SignalRClientPackageDescription */,
 				"SignalRClient::SignalRClientPackageTests::ProductTarget" /* SignalRClientPackageTests */,
 				"SignalRClient::SignalRClientTests" /* SignalRClientTests */,
@@ -433,7 +433,7 @@
 		};
 		OBJ_124 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "SignalRClient::SignalRClient" /* SignalRClient */;
+			target = "SignalRClient::SignalRClient" /* SwiftSignalRClient */;
 			targetProxy = 5AC7760E2341B90800486117 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -658,7 +658,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		OBJ_60 /* Build configuration list for PBXNativeTarget "SignalRClient" */ = {
+		OBJ_60 /* Build configuration list for PBXNativeTarget "SwiftSignalRClient" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_61 /* Debug */,
